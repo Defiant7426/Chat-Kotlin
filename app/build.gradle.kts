@@ -33,6 +33,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true // Permite usar ViewBinding, esto significa que
+    // se generará una clase para cada layout
+    }
 }
 
 dependencies {
